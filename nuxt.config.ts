@@ -4,4 +4,7 @@ import { defineNuxtConfig } from 'nuxt';
 export default defineNuxtConfig({
   ssr: false,
   modules: ['@vueuse/nuxt'],
+  app: {
+    baseURL: '/my-nuxt3-githubpage/'
+  }
 });
